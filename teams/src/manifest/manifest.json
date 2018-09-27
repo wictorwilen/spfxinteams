@@ -1,0 +1,54 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+        "manifestVersion": "1.3",
+    "id": "68da2691-d129-8ac8-cd9e-e0e4b1215414",
+    "version": "0.0.1",
+    "packageName": "net.azurewebsites.spfxinteamsTeams",
+    "developer": {
+        "name": "Wictor Wilen",
+        "websiteUrl": "https://spfxinteamsTeams.azurewebsites.net",
+        "privacyUrl": "https://spfxinteamsTeams.azurewebsites.net/privacy.html",
+        "termsOfUseUrl": "https://spfxinteamsTeams.azurewebsites.net/tou.html"
+    },
+    "name": {
+        "short": "SPFx in Teams",
+        "full": "SPFx in Teams"
+    },
+    "description": {
+        "short": "SharePoint Framework Web Part based tab demo",
+        "full": "SharePoint Framework Web Part based tab demo"
+    },
+    "icons": {
+        "outline": "icon-outline.png",
+        "color": "icon-color.png"
+    },
+    "accentColor": "#D85028",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://spoppe-a.akamaihd.net/files/sp-client-master_20180727.004/sp-teams-tab/sp-teams-tab.html?dest=/_layouts/15/webpart.aspx?openPropertyPane=true&teams&componentId=374bc334-0a1f-4cbc-82a6-4d87f71e6976",
+            "canUpdateConfiguration": true,
+            "scopes": [
+              "team"
+            ] 
+        }
+    ],
+    "staticTabs": [],
+    "bots": [],
+    "connectors": [],
+    "composeExtensions": [],
+    "permissions": ["identity", "messageTeamMembers"],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "*.sharepoint-df.com",
+      "spoppe-a.akamaihd.net",
+      "spoprod-a.akamaihd.net",
+      "resourceseng.blob.core.windows.net",
+      "msft.spoppe.com",
+      "a830edad9050849devkitc08.sharepoint.com"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://a830edad9050849devkitc08.sharepoint.com",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    } 
+}
