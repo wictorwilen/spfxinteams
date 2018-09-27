@@ -1,5 +1,7 @@
 # SharePoint Framework Web Part in Microsoft Teams demo
 
+**Link**: https://askwictor.com/spfxinteams
+
 Demo solution for Microsoft Ignite 2018 that shows how a SharePoint Framework Web Part can be added as a Microsoft Teams tab.
 
 > **NOTE** ALL CODE AND SETUP AND CONFIGURATION ARE SUBJECT TO CHANGE AND ARE SHARED ONLY FOR DEMONSTRATIONAL PURPOSES AT MICROSOFT IGNITE 2018. IT MIGHT NOT EVEN WORK IN YOUR TENANT SINCE IT ALSO HAS DEPENDENCIES ON TENANT PRE-RELEASE FEATURES.
